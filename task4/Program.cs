@@ -7,7 +7,7 @@ Console.WriteLine("Напишите целое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
 Console.Write ("Вывод числе в промежутке от -N до N: ");
-for (int i = -a; i < a; i++)
+for (int i = -a; i <= a; i++)
 {
     Console.Write (i + " ");
 }
